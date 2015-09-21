@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		470286BC1BB04C38005D4BA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 470286BB1BB04C38005D4BA7 /* main.m */; };
+		470286BF1BB04C38005D4BA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 470286BE1BB04C38005D4BA7 /* AppDelegate.m */; };
+		470286C71BB04C38005D4BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470286C61BB04C38005D4BA7 /* Assets.xcassets */; };
+		470286D51BB04C38005D4BA7 /* SMSaveToPhotoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 470286D41BB04C38005D4BA7 /* SMSaveToPhotoDemoTests.m */; };
+		470286E01BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 470286DF1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests.m */; };
+		47F32DD31BB07136004F55E0 /* SMProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 47F32DCE1BB07136004F55E0 /* SMProgressHUD.bundle */; };
+		47F32DD41BB07136004F55E0 /* SMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F32DD01BB07136004F55E0 /* SMProgressHUD.m */; };
+		47F32DD51BB07136004F55E0 /* SMSaveImageToPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F32DD21BB07136004F55E0 /* SMSaveImageToPhotos.m */; };
+		47F32DD91BB07146004F55E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F32DD61BB07145004F55E0 /* Main.storyboard */; };
+		47F32DDA1BB07146004F55E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F32DD81BB07146004F55E0 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		470286D11BB04C38005D4BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 470286AF1BB04C38005D4BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470286B61BB04C38005D4BA7;
+			remoteInfo = SMSaveToPhotoDemo;
+		};
+		470286DC1BB04C38005D4BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 470286AF1BB04C38005D4BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470286B61BB04C38005D4BA7;
+			remoteInfo = SMSaveToPhotoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		470286B71BB04C38005D4BA7 /* SMSaveToPhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSaveToPhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		470286BB1BB04C38005D4BA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		470286BD1BB04C38005D4BA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		470286BE1BB04C38005D4BA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		470286C61BB04C38005D4BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		470286CB1BB04C38005D4BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		470286D01BB04C38005D4BA7 /* SMSaveToPhotoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSaveToPhotoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		470286D41BB04C38005D4BA7 /* SMSaveToPhotoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSaveToPhotoDemoTests.m; sourceTree = "<group>"; };
+		470286D61BB04C38005D4BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		470286DB1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSaveToPhotoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		470286DF1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSaveToPhotoDemoUITests.m; sourceTree = "<group>"; };
+		470286E11BB04C38005D4BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F32DCE1BB07136004F55E0 /* SMProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMProgressHUD.bundle; sourceTree = "<group>"; };
+		47F32DCF1BB07136004F55E0 /* SMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMProgressHUD.h; sourceTree = "<group>"; };
+		47F32DD01BB07136004F55E0 /* SMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMProgressHUD.m; sourceTree = "<group>"; };
+		47F32DD11BB07136004F55E0 /* SMSaveImageToPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSaveImageToPhotos.h; sourceTree = "<group>"; };
+		47F32DD21BB07136004F55E0 /* SMSaveImageToPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSaveImageToPhotos.m; sourceTree = "<group>"; };
+		47F32DD61BB07145004F55E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../SMSaveImageToPhotos/Main.storyboard; sourceTree = "<group>"; };
+		47F32DD71BB07146004F55E0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../SMSaveImageToPhotos/ViewController.h; sourceTree = "<group>"; };
+		47F32DD81BB07146004F55E0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../SMSaveImageToPhotos/ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		470286B41BB04C38005D4BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470286CD1BB04C38005D4BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470286D81BB04C38005D4BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		470286AE1BB04C38005D4BA7 = {
+			isa = PBXGroup;
+			children = (
+				470286B91BB04C38005D4BA7 /* SMSaveToPhotoDemo */,
+				470286D31BB04C38005D4BA7 /* SMSaveToPhotoDemoTests */,
+				470286DE1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests */,
+				470286B81BB04C38005D4BA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		470286B81BB04C38005D4BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				470286B71BB04C38005D4BA7 /* SMSaveToPhotoDemo.app */,
+				470286D01BB04C38005D4BA7 /* SMSaveToPhotoDemoTests.xctest */,
+				470286DB1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		470286B91BB04C38005D4BA7 /* SMSaveToPhotoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				47F32DCD1BB07136004F55E0 /* SMSaveImageToPhotos */,
+				470286BD1BB04C38005D4BA7 /* AppDelegate.h */,
+				47F32DD61BB07145004F55E0 /* Main.storyboard */,
+				47F32DD71BB07146004F55E0 /* ViewController.h */,
+				47F32DD81BB07146004F55E0 /* ViewController.m */,
+				470286BE1BB04C38005D4BA7 /* AppDelegate.m */,
+				470286C61BB04C38005D4BA7 /* Assets.xcassets */,
+				470286CB1BB04C38005D4BA7 /* Info.plist */,
+				470286BA1BB04C38005D4BA7 /* Supporting Files */,
+			);
+			path = SMSaveToPhotoDemo;
+			sourceTree = "<group>";
+		};
+		470286BA1BB04C38005D4BA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				470286BB1BB04C38005D4BA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		470286D31BB04C38005D4BA7 /* SMSaveToPhotoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				470286D41BB04C38005D4BA7 /* SMSaveToPhotoDemoTests.m */,
+				470286D61BB04C38005D4BA7 /* Info.plist */,
+			);
+			path = SMSaveToPhotoDemoTests;
+			sourceTree = "<group>";
+		};
+		470286DE1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				470286DF1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests.m */,
+				470286E11BB04C38005D4BA7 /* Info.plist */,
+			);
+			path = SMSaveToPhotoDemoUITests;
+			sourceTree = "<group>";
+		};
+		47F32DCD1BB07136004F55E0 /* SMSaveImageToPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				47F32DCE1BB07136004F55E0 /* SMProgressHUD.bundle */,
+				47F32DCF1BB07136004F55E0 /* SMProgressHUD.h */,
+				47F32DD01BB07136004F55E0 /* SMProgressHUD.m */,
+				47F32DD11BB07136004F55E0 /* SMSaveImageToPhotos.h */,
+				47F32DD21BB07136004F55E0 /* SMSaveImageToPhotos.m */,
+			);
+			path = SMSaveImageToPhotos;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		470286B61BB04C38005D4BA7 /* SMSaveToPhotoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470286E41BB04C38005D4BA7 /* Build configuration list for PBXNativeTarget "SMSaveToPhotoDemo" */;
+			buildPhases = (
+				470286B31BB04C38005D4BA7 /* Sources */,
+				470286B41BB04C38005D4BA7 /* Frameworks */,
+				470286B51BB04C38005D4BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSaveToPhotoDemo;
+			productName = SMSaveToPhotoDemo;
+			productReference = 470286B71BB04C38005D4BA7 /* SMSaveToPhotoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		470286CF1BB04C38005D4BA7 /* SMSaveToPhotoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470286E71BB04C38005D4BA7 /* Build configuration list for PBXNativeTarget "SMSaveToPhotoDemoTests" */;
+			buildPhases = (
+				470286CC1BB04C38005D4BA7 /* Sources */,
+				470286CD1BB04C38005D4BA7 /* Frameworks */,
+				470286CE1BB04C38005D4BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				470286D21BB04C38005D4BA7 /* PBXTargetDependency */,
+			);
+			name = SMSaveToPhotoDemoTests;
+			productName = SMSaveToPhotoDemoTests;
+			productReference = 470286D01BB04C38005D4BA7 /* SMSaveToPhotoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		470286DA1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470286EA1BB04C38005D4BA7 /* Build configuration list for PBXNativeTarget "SMSaveToPhotoDemoUITests" */;
+			buildPhases = (
+				470286D71BB04C38005D4BA7 /* Sources */,
+				470286D81BB04C38005D4BA7 /* Frameworks */,
+				470286D91BB04C38005D4BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				470286DD1BB04C38005D4BA7 /* PBXTargetDependency */,
+			);
+			name = SMSaveToPhotoDemoUITests;
+			productName = SMSaveToPhotoDemoUITests;
+			productReference = 470286DB1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		470286AF1BB04C38005D4BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = songm;
+				TargetAttributes = {
+					470286B61BB04C38005D4BA7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = B8U32Y8W39;
+					};
+					470286CF1BB04C38005D4BA7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = B8U32Y8W39;
+						TestTargetID = 470286B61BB04C38005D4BA7;
+					};
+					470286DA1BB04C38005D4BA7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = B8U32Y8W39;
+						TestTargetID = 470286B61BB04C38005D4BA7;
+					};
+				};
+			};
+			buildConfigurationList = 470286B21BB04C38005D4BA7 /* Build configuration list for PBXProject "SMSaveToPhotoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 470286AE1BB04C38005D4BA7;
+			productRefGroup = 470286B81BB04C38005D4BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				470286B61BB04C38005D4BA7 /* SMSaveToPhotoDemo */,
+				470286CF1BB04C38005D4BA7 /* SMSaveToPhotoDemoTests */,
+				470286DA1BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		470286B51BB04C38005D4BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F32DD91BB07146004F55E0 /* Main.storyboard in Resources */,
+				47F32DD31BB07136004F55E0 /* SMProgressHUD.bundle in Resources */,
+				470286C71BB04C38005D4BA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470286CE1BB04C38005D4BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470286D91BB04C38005D4BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		470286B31BB04C38005D4BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470286BF1BB04C38005D4BA7 /* AppDelegate.m in Sources */,
+				47F32DD41BB07136004F55E0 /* SMProgressHUD.m in Sources */,
+				47F32DD51BB07136004F55E0 /* SMSaveImageToPhotos.m in Sources */,
+				470286BC1BB04C38005D4BA7 /* main.m in Sources */,
+				47F32DDA1BB07146004F55E0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470286CC1BB04C38005D4BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470286D51BB04C38005D4BA7 /* SMSaveToPhotoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470286D71BB04C38005D4BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470286E01BB04C38005D4BA7 /* SMSaveToPhotoDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		470286D21BB04C38005D4BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 470286B61BB04C38005D4BA7 /* SMSaveToPhotoDemo */;
+			targetProxy = 470286D11BB04C38005D4BA7 /* PBXContainerItemProxy */;
+		};
+		470286DD1BB04C38005D4BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 470286B61BB04C38005D4BA7 /* SMSaveToPhotoDemo */;
+			targetProxy = 470286DC1BB04C38005D4BA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		470286E21BB04C38005D4BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		470286E31BB04C38005D4BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		470286E51BB04C38005D4BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMSaveToPhotoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songm.SMSaveToPhotoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		470286E61BB04C38005D4BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMSaveToPhotoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songm.SMSaveToPhotoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		470286E81BB04C38005D4BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMSaveToPhotoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songm.SMSaveToPhotoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSaveToPhotoDemo.app/SMSaveToPhotoDemo";
+			};
+			name = Debug;
+		};
+		470286E91BB04C38005D4BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMSaveToPhotoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songm.SMSaveToPhotoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSaveToPhotoDemo.app/SMSaveToPhotoDemo";
+			};
+			name = Release;
+		};
+		470286EB1BB04C38005D4BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMSaveToPhotoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songm.SMSaveToPhotoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMSaveToPhotoDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		470286EC1BB04C38005D4BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMSaveToPhotoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songm.SMSaveToPhotoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMSaveToPhotoDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		470286B21BB04C38005D4BA7 /* Build configuration list for PBXProject "SMSaveToPhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470286E21BB04C38005D4BA7 /* Debug */,
+				470286E31BB04C38005D4BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470286E41BB04C38005D4BA7 /* Build configuration list for PBXNativeTarget "SMSaveToPhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470286E51BB04C38005D4BA7 /* Debug */,
+				470286E61BB04C38005D4BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470286E71BB04C38005D4BA7 /* Build configuration list for PBXNativeTarget "SMSaveToPhotoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470286E81BB04C38005D4BA7 /* Debug */,
+				470286E91BB04C38005D4BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470286EA1BB04C38005D4BA7 /* Build configuration list for PBXNativeTarget "SMSaveToPhotoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470286EB1BB04C38005D4BA7 /* Debug */,
+				470286EC1BB04C38005D4BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 470286AF1BB04C38005D4BA7 /* Project object */;
+}

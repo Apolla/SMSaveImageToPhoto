@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "07E545683B062F494C274CCD2B97860057A44706",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "07E545683B062F494C274CCD2B97860057A44706" : 0,
+    "AD75655B0BE198ACBB98D7767E400EBC1CC8E84B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48946099-5C42-44F5-903B-20D73E0525E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "07E545683B062F494C274CCD2B97860057A44706" : "SMSaveImageToPhoto\/",
+    "AD75655B0BE198ACBB98D7767E400EBC1CC8E84B" : "SDSaveImageToPhoto"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SMSaveToPhotoDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SMSaveToPhotoDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Apolla\/SMSaveImageToPhoto.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07E545683B062F494C274CCD2B97860057A44706"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Apolla\/SDSaveImageToPhoto.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD75655B0BE198ACBB98D7767E400EBC1CC8E84B"
+    }
+  ]
+}
